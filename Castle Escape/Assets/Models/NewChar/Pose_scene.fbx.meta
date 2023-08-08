@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: 42b595620c495a34699e6be67ba79999
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Pose_scene(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: Pose_scene(Clone)
+      position: {x: -0, y: 0.011182153, z: 0.000109650195}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: torso
+      parentName: Pose_scene(Clone)
+      position: {x: -0, y: 0.00022523462, z: 0.0004519309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface4
+      parentName: torso
+      position: {x: -0, y: -0.00022523462, z: -0.0004519309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface5
+      parentName: torso
+      position: {x: 0.0017056527, y: 0.00034093382, z: 0.0027195334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform2
+      parentName: torso
+      position: {x: -0, y: -0.00022523462, z: -0.0004519309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: token1
+      parentName: Pose_scene(Clone)
+      position: {x: 0.00026958055, y: 0.0030724134, z: 0.0030216526}
+      rotation: {x: 0.060070094, y: -0.043078627, z: -0.06655145, w: 0.9950411}
+      scale: {x: 1, y: 1, z: 1}
+    - name: token2
+      parentName: Pose_scene(Clone)
+      position: {x: -0.00025646767, y: 0.0030564906, z: 0.0032469505}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyes
+      parentName: Pose_scene(Clone)
+      position: {x: -0, y: 0.009886311, z: 0.0035902874}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bag
+      parentName: Pose_scene(Clone)
+      position: {x: -0, y: -0.0041379062, z: 0.0032473858}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: glasses
+      parentName: Pose_scene(Clone)
+      position: {x: -0, y: 0.004862164, z: 0.0025212124}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tube
+      parentName: Pose_scene(Clone)
+      position: {x: 0.0024180578, y: -0.003858423, z: 0.0024780885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ring
+      parentName: Pose_scene(Clone)
+      position: {x: -0, y: -0.00160575, z: 0.0041670147}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail
+      parentName: Pose_scene(Clone)
+      position: {x: -0.00023622806, y: -0.004115181, z: -0.0035332788}
+      rotation: {x: 0.21467815, y: 0.1453449, z: -0.77780163, w: 0.5725494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: scarf
+      parentName: Pose_scene(Clone)
+      position: {x: -0, y: 0.0060169827, z: 0.00021083071}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dress
+      parentName: Pose_scene(Clone)
+      position: {x: -0, y: 0.00036761223, z: 0.000082161576}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface1
+      parentName: dress
+      position: {x: -0, y: -0.00036761223, z: -0.000082161576}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6
+      parentName: polySurface1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface7
+      parentName: polySurface1
+      position: {x: -0.0031455648, y: 0.0016606139, z: 0.004063195}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform3
+      parentName: polySurface1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: dress
+      position: {x: 0.0031552108, y: -0.0047175796, z: 0.0042345226}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5653541, y: 0.5653541, z: 0.5653541}
+    - name: transform1
+      parentName: dress
+      position: {x: -0, y: -0.00036761223, z: -0.000082161576}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface3
+      parentName: dress
+      position: {x: 0.0029700801, y: -0.0028583775, z: 0.0041335304}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5653541, y: 0.5653541, z: 0.5653541}
+    - name: armband
+      parentName: Pose_scene(Clone)
+      position: {x: 0.0057332623, y: 0.0016790341, z: -0.000765675}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ring_band
+      parentName: Pose_scene(Clone)
+      position: {x: -0.0004699248, y: -0.00013752174, z: 0.0037756467}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boots
+      parentName: Pose_scene(Clone)
+      position: {x: -0.0032288209, y: -0.007049269, z: 0.0013233984}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear_hair
+      parentName: Pose_scene(Clone)
+      position: {x: 0.00005561834, y: 0.014861785, z: 0.0005705272}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locator1
+      parentName: Pose_scene(Clone)
+      position: {x: -0.0033690827, y: -0.0022996704, z: -0.003073421}
+      rotation: {x: 0.086621456, y: 0.40463012, z: 0.026666008, w: 0.9099781}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube31
+      parentName: locator1
+      position: {x: -0.009973309, y: -0.00025094507, z: 0.00015933074}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube32
+      parentName: locator1
+      position: {x: -0.007362683, y: -0.0007863998, z: 0.00015933072}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube33
+      parentName: locator1
+      position: {x: -0.005727056, y: 0.000844543, z: 0.00015933074}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube30
+      parentName: locator1
+      position: {x: -0.006897973, y: -0.00092824694, z: 0.00015933074}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube27
+      parentName: locator1
+      position: {x: -0.008729664, y: 0.000015757083, z: 0.0001593307}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube23
+      parentName: locator1
+      position: {x: -0.008010615, y: -0.00011079788, z: 0.00015932966}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube22
+      parentName: locator1
+      position: {x: -0.00494715, y: -0.0009209084, z: 0.00015933074}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder6
+      parentName: locator1
+      position: {x: -0.006993264, y: 0.00006952286, z: 0.00015582077}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube25
+      parentName: locator1
+      position: {x: 0.008952643, y: 0.00007050752, z: 0.00015933077}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube24
+      parentName: locator1
+      position: {x: -0.0068691657, y: 0.0008705926, z: 0.00015933074}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube19
+      parentName: locator1
+      position: {x: -0.00022920578, y: 0.004327738, z: -0.00005465323}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube17
+      parentName: locator1
+      position: {x: -0.010682355, y: 0.000014224052, z: 0.00015933074}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube21
+      parentName: locator1
+      position: {x: -0.008284076, y: 0.001009407, z: -0.00022948696}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube20
+      parentName: locator1
+      position: {x: -0.008395691, y: 0.0008184051, z: -0.0002819699}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube16
+      parentName: locator1
+      position: {x: -0.009219762, y: 0.00046004294, z: 0.00015933072}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube15
+      parentName: locator1
+      position: {x: 0.00042258203, y: 0.00008764744, z: 0.00015932969}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wea_on
+      parentName: Pose_scene(Clone)
+      position: {x: 0.0059417854, y: -0.0013411887, z: 0.0036961196}
+      rotation: {x: -0.045921743, y: 0.05648453, z: -0.10607382, w: 0.99169}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder2
+      parentName: wea_on
+      position: {x: 0.000023023425, y: 0.0022661095, z: 0.000013430118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder4
+      parentName: wea_on
+      position: {x: 0.000023021841, y: 0.014395928, z: -0.000024626255}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube34
+      parentName: wea_on
+      position: {x: 0.0014842405, y: 0.01340375, z: 0.000015137195}
+      rotation: {x: 0.2523061, y: 0.04489283, z: 0.38022003, w: 0.88868386}
+      scale: {x: 1.5071636, y: 0.4547939, z: 1}
+    - name: pCylinder7
+      parentName: wea_on
+      position: {x: 0.0010272488, y: 0.013878722, z: 0.00007227659}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface58
+      parentName: wea_on
+      position: {x: 0.0005593951, y: 0.017554745, z: -0.00002730608}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder3
+      parentName: wea_on
+      position: {x: 0.000023021841, y: 0.012761502, z: -0.000024626255}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locator2
+      parentName: wea_on
+      position: {x: 0.0035770028, y: 0.009291848, z: -0.0014117522}
+      rotation: {x: 0.077594034, y: -0.37239537, z: 0.085671626, w: 0.92084813}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube14
+      parentName: locator2
+      position: {x: -0.00057621644, y: -0.00073020067, z: 0.0003832364}
+      rotation: {x: -0.045921743, y: 0.05648453, z: -0.10607382, w: 0.99169}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface8
+      parentName: locator2
+      position: {x: -0.0010392434, y: 0.0028254208, z: 0.0001537776}
+      rotation: {x: -0.045921743, y: 0.05648453, z: -0.10607382, w: 0.99169}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
